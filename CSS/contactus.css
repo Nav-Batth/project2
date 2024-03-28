@@ -1,0 +1,281 @@
+body{
+    margin: 0;
+}
+.nav1{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(58, 57, 57);
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+}
+.div1{
+    width: 40%;
+    float: left;
+    text-align: center;
+}
+.img1{
+    width: 140;
+    height: 100px;
+}
+.div2{
+    width: 60%;
+    float: left;
+    padding-top: 15px;
+}
+.home{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    }
+ul li{
+    display: inline-block;
+    margin-left: 40px;
+}
+a:hover{
+    color: #9f6b5a;
+}
+.clear{
+    clear: both;
+}
+.contus-sec1{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.contus-sec1-div1{
+    padding-top: 200px;
+}
+.contus-sec1-a{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+.contus-sec1-ol{
+    padding-right: 45px;
+}
+ol li{
+    display: inline-block;
+    padding-left: 5px;
+}
+.contus-sec1-p1{
+    font-size: 40px;
+}
+.contus-sec1-li2{
+    word-spacing: 5px;
+}
+.contus-clear1{
+    clear: both;
+}
+.contus-sec2{
+    width: 100%;
+    height: 300px;
+}
+.contus-sec2-div-head{
+    width: 80%;
+    margin: auto;
+    padding-top: 90px;
+}
+.contus-sec2-d1{
+    width: 25%;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contus-sec2-d11{
+    padding-left: 30px;
+}
+.contus-sec2-d01{
+    width: 30%;
+    float: left;
+}
+.contus-sec2-d02{
+    width: 70%;
+    float: left;
+    color: #6c757d;
+}
+.contus-sec2-a{
+    text-decoration: none;
+    color: #6c757d;
+}
+span{
+    font-size: 50px;
+    color:#9f6b5a;
+}
+.contus-clear2{
+    clear: both;
+}
+.sec6{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+}
+.sec6-div-head{
+    width: 85%;
+    margin: auto;
+    padding-top: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sec6-div1{
+    width: 33.3%;
+    float: left;
+}
+.sec6-h2{
+    color: white;
+    font-size: 30px;
+}
+.sec6-a{
+    color: #6c757d;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 17px;
+}
+.sec6-div2{
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    color: #6c757d;
+    font-size: 17px;
+}
+.sec6-div3{
+    width: 33.3%;
+    float: left;
+    text-align: right;
+    color: #6c757d;
+}
+.sec6-3-h2{
+    color: white;
+    font-size: 30px;
+}
+.sec6-li{
+     display: block;
+}
+.sec6-a1{
+    font-size: 17px;
+    color: #6c757d;
+    line-height: 50px;
+    text-decoration: none;
+}
+.clear6{
+    clear: both;
+}
+.sec6-d4{
+    color: #6c757d;
+    text-align: center;
+}
+@media screen and (min-width:0px) and (max-width:576px) {
+
+
+    body{
+        margin: 0;
+        width: 1170px;
+    }
+    .nav1{
+        width: 100%;
+        height: 100px;
+        background-color: rgb(58, 57, 57);
+        margin: auto;
+        font-family: Arial, Helvetica, sans-serif;
+        position: fixed;
+    }
+    .div1{
+        width: 40%;
+        float: left;
+        text-align: center;
+    }
+    .img1{
+        width: 140;
+        height: 100px;
+    }
+    .div2{
+        width: 60%;
+        float: left;
+        padding-top: 15px;
+    }
+    .contus-sec1{
+        height: 400%;
+        padding-bottom: 60px;
+    }
+    .contus-sec1-a{
+        font-size: 48px;
+    }
+    .contus-sec1-p1{
+        font-size: 60px;
+    }
+    .contus-sec1-li2{
+        font-size: 48px;
+    }
+    .contus-sec2{
+        width: 100%;
+        height: 300%;
+    }
+    .contus-sec2-div-head{
+        width: 80%;
+        margin: auto;
+        padding-top: 90px;
+    }
+    .contus-sec2-d1{
+        width: 100%;
+        padding: 80px 0px;
+    }
+    .contus-sec2-d01{
+        width: 30%;
+        float: left;
+    }
+    .contus-sec2-d02{
+        width: 50%;
+    }
+    .contus-sec2-p1{
+        font-size: 50px;
+    }
+    .contus-sec2-a{
+        font-size: 50px;
+    }
+    span{
+        font-size: 120px;
+    }
+    .sec6{
+        height: 550%;
+        padding-bottom: 40px;
+    }
+    .sec6-div-head{
+        width: 85%;
+    }
+    .sec6-div1{
+        width: 100%;
+    }
+    .sec6-h2{
+        font-size: 80px;
+    }
+    .sec6-a{
+        line-height: 90px;
+        font-size: 60px;
+    }
+    .sec6-img1{
+        width: 60%;
+        padding: 80px 10px;
+    }
+    .sec6-div2{
+        width: 100%;
+        line-height: 80px;
+        font-size: 50px;
+    }
+    .sec6-div3{
+        width: 100%;
+        text-align: left;
+    }
+    .sec6-3-h2{
+        font-size: 80px;
+    }
+    .sec6-a1{
+        font-size: 50px;
+        line-height: 90px;
+    }
+    .sec6-d4{
+        font-size: 50px;
+        text-align: center;
+    }
+}
