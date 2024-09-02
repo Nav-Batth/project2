@@ -7,7 +7,8 @@ body{
     background-color: rgb(58, 57, 57);
     margin: auto;
     font-family: Arial, Helvetica, sans-serif;
-    position: fixed;
+    position: relative;
+    z-index: 1000;
 }
 .div1{
     width: 40%;
@@ -108,6 +109,45 @@ span{
 .contus-clear2{
     clear: both;
 }
+.contus-sec3{
+    width: 100%;
+    height: 350px;
+    padding: 100px 0px;
+
+}
+.contus-sec3-div-head{
+    width: 85%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contus-sec3-d1{
+    width: 50%;
+    float: left;
+    margin-left: 20px;
+}
+.name{
+    padding: 10px 170px 10px 20px;
+    margin: 8px;
+    font-size: 20px;
+}
+.btn{
+    padding: 10px 154px;
+    margin: 8px;
+    font-size: 20px;
+}
+.contus-sec3-d2{
+    width: 45%;
+    float: left;
+}
+.mpp{
+    width: 100%;
+    height: 310px;
+    margin-top: 60px;
+}
+.contus-clear3{
+    clear: both;
+}
+
 .sec6{
     width: 100%;
     height: 500px;
@@ -123,6 +163,22 @@ span{
     width: 33.3%;
     float: left;
 }
+.location-icon {
+    width: 30px;
+    height: 30px;
+    fill:#9f6b5a; /* Color of the icon */
+}
+.bi.bi-telephone {
+    color:#9f6b5a;
+    width: 30px;
+    height: 30px;
+}
+.email-icon {
+    width: 30px;
+    height: 30px;
+    fill:#9f6b5a;
+    transition: fill 0.3s;
+}
 .sec6-h2{
     color: white;
     font-size: 30px;
@@ -130,7 +186,7 @@ span{
 .sec6-a{
     color: #6c757d;
     text-decoration: none;
-    line-height: 60px;
+    line-height: 70px;
     font-size: 17px;
 }
 .sec6-div2{
@@ -140,6 +196,36 @@ span{
     color: #6c757d;
     font-size: 17px;
 }
+.cu-sec6-div3{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.sec6-social-icon svg {
+    width: 30px;
+    height: 30px;
+    fill: #6c757d;
+    margin-right: 90px;
+}
+.sec6-twitter-icon {
+    width: 35px;
+    height: 35px;
+    fill: #6c757d; 
+    margin-right: 50px;
+}
+.sec6-instagram-icon {
+    width: 30px; 
+    height: 30px;
+    fill:#6c757d; 
+    margin-left: 90px;
+}
+.sec6-linkedin-icon svg {
+    fill:#6c757d;
+    width: 30px; 
+    height: 30px; 
+    transition: fill 0.3s ease; 
+    margin-left: 30px;
+} 
 .sec6-div3{
     width: 33.3%;
     float: left;
@@ -175,38 +261,45 @@ span{
     }
     .nav1{
         width: 100%;
-        height: 100px;
+        height: 400px;
         background-color: rgb(58, 57, 57);
         margin: auto;
+        z-index: 1000;
         font-family: Arial, Helvetica, sans-serif;
-        position: fixed;
+        position: relative;
     }
     .div1{
-        width: 40%;
-        float: left;
+        width: 100%;
+        float: none;
         text-align: center;
     }
     .img1{
-        width: 140;
-        height: 100px;
+        width: 70%;
+        height: 250px;
+        margin-top: 20px;
     }
     .div2{
-        width: 60%;
-        float: left;
-        padding-top: 15px;
+        width: 100%;
+        float: none;
+        padding: 35px 0px;
+        background-color: rgb(53, 46, 46);
+    }
+    
+.home{
+    font-size: 37px;
     }
     .contus-sec1{
-        height: 400%;
+        height: 200%;
         padding-bottom: 60px;
     }
     .contus-sec1-a{
-        font-size: 48px;
+        font-size: 40px;
     }
     .contus-sec1-p1{
-        font-size: 60px;
+        font-size: 50px;
     }
     .contus-sec1-li2{
-        font-size: 48px;
+        font-size: 32px;
     }
     .contus-sec2{
         width: 100%;

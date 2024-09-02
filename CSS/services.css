@@ -7,7 +7,8 @@ body{
     background-color: rgb(58, 57, 57);
     margin: auto;
     font-family: Arial, Helvetica, sans-serif;
-    position: fixed;
+    position: relative;
+    z-index: 1000;
 }
 .div1{
     width: 40%;
@@ -23,7 +24,7 @@ body{
     float: left;
     padding-top: 15px;
 }
-a{
+.home{
     text-decoration: none;
     color: white;
     font-size: 17px;
@@ -52,6 +53,8 @@ a:hover{
 }
 .ser-sec1-a{
     font-size: 18px;
+    text-decoration: none;
+    color: white;
 }
 .ser-sec1-ol{
     padding-right: 45px;
@@ -477,7 +480,7 @@ span {
     background-color: black;
 }
 .ser-sec7-div-head{
-    width: 85%;
+    width: 90%;
     margin: auto;
     padding-top: 80px; 
     font-family: Arial, Helvetica, sans-serif;
@@ -486,6 +489,22 @@ span {
     width: 33.3%;
     float: left;
 }
+.location-icon {
+    width: 30px;
+    height: 30px;
+    fill:#9f6b5a; /* Color of the icon */
+}
+.bi.bi-telephone {
+    color:#9f6b5a;
+    width: 30px;
+    height: 30px;
+}
+.email-icon {
+    width: 30px;
+    height: 30px;
+    fill:#9f6b5a;
+    transition: fill 0.3s;
+}
 .ser-sec7-h2{
     color: white;
     font-size: 30px;
@@ -493,7 +512,7 @@ span {
 .ser-sec7-a{
     color: #6c757d;
     text-decoration: none;
-    line-height: 60px;
+    line-height: 70px;
     font-size: 17px;
 }
 .ser-sec7-div2{
@@ -525,6 +544,36 @@ span {
 .ser-clear7{
     clear: both;
 }
+.sec7-div3{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.sec7-social-icon svg {
+    width: 30px;
+    height: 30px;
+    fill: #6c757d;
+    margin-right: 90px;
+}
+.sec7-twitter-icon {
+    width: 35px;
+    height: 35px;
+    fill: #6c757d; /* Twitter blue */
+    margin-right: 50px;
+}
+.sec7-instagram-icon {
+    width: 30px; /* Adjust the size as needed */
+    height: 30px;
+    fill:#6c757d; /* White color */
+    margin-left: 90px;
+}
+.sec7-linkedin-icon svg {
+    fill:#6c757d; /* LinkedIn blue color */
+    width: 30px; /* Adjust size as needed */
+    height: 30px; /* Adjust size as needed */
+    transition: fill 0.3s ease; /* Smooth transition */
+    margin-left: 30px;
+}
 .ser-sec7-d4{
     color: #6c757d;
     text-align: center;
@@ -539,25 +588,32 @@ span {
     }
     .nav1{
         width: 100%;
-        height: 100px;
+        height: 400px;
         background-color: rgb(58, 57, 57);
         margin: auto;
+        z-index: 1000;
         font-family: Arial, Helvetica, sans-serif;
-        position: fixed;
+        position: relative;
     }
     .div1{
-        width: 40%;
-        float: left;
+        width: 100%;
+        float: none;
         text-align: center;
     }
     .img1{
-        width: 140;
-        height: 100px;
+        width: 70%;
+        height: 250px;
+        margin-top: 20px;
     }
     .div2{
-        width: 60%;
-        float: left;
-        padding-top: 15px;
+        width: 100%;
+        float: none;
+        padding: 35px 0px;
+        background-color: rgb(53, 46, 46);
+    }
+    
+.home{
+    font-size: 37px;
     }
     .ser-sec1{
         height: 500px;

@@ -7,7 +7,8 @@ body{
     background-color: rgb(58, 57, 57);
     margin: auto;
     font-family: Arial, Helvetica, sans-serif;
-    position: fixed;
+    position: relative;
+    z-index: 1000;
 }
 .div1{
     width: 40%;
@@ -28,11 +29,11 @@ body{
     color: white;
     font-size: 17px;
     }
-.sec-ul li{
+ul li{
     display: inline-block;
     margin-left: 40px;
 }
-.home:hover{
+a:hover{
     color: #9f6b5a;
 }
 .clear{
@@ -417,6 +418,22 @@ span {
     width: 33.3%;
     float: left;
 }
+.location-icon {
+    width: 30px;
+    height: 30px;
+    fill:#9f6b5a; /* Color of the icon */
+}
+.bi.bi-telephone {
+    color:#9f6b5a;
+    width: 30px;
+    height: 30px;
+}
+.email-icon {
+    width: 30px;
+    height: 30px;
+    fill:#9f6b5a;
+    transition: fill 0.3s;
+}
 .sec6-h2{
     color: white;
     font-size: 30px;
@@ -424,7 +441,7 @@ span {
 .sec6-a{
     color: #6c757d;
     text-decoration: none;
-    line-height: 60px;
+    line-height: 70px;
     font-size: 17px;
 }
 .sec6-div2{
@@ -439,6 +456,36 @@ span {
     float: left;
     text-align: right;
     color: #6c757d;
+}
+.ab-sec6-div3{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.sec6-social-icon svg {
+    width: 30px;
+    height: 30px;
+    fill: #6c757d;
+    margin-right: 90px;
+}
+.sec6-twitter-icon {
+    width: 35px;
+    height: 35px;
+    fill: #6c757d; /* Twitter blue */
+    margin-right: 50px;
+}
+.sec6-instagram-icon {
+    width: 30px; /* Adjust the size as needed */
+    height: 30px;
+    fill:#6c757d; /* White color */
+    margin-left: 90px;
+}
+.sec6-linkedin-icon svg {
+    fill:#6c757d; /* LinkedIn blue color */
+    width: 30px; /* Adjust size as needed */
+    height: 30px; /* Adjust size as needed */
+    transition: fill 0.3s ease; /* Smooth transition */
+    margin-left: 30px;
 }
 .sec6-3-h2{
     color: white;
@@ -466,65 +513,46 @@ span {
         margin: 0;
         width: 1170px;
     }
+    .nav1{
+        width: 100%;
+        height: 400px;
+        background-color: rgb(58, 57, 57);
+        margin: auto;
+        z-index: 1000;
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+    }
     .div1{
-        width: 40%;
-        float: left;
+        width: 100%;
+        float: none;
         text-align: center;
     }
     .img1{
-        width: 140;
-        height: 80px;
+        width: 70%;
+        height: 250px;
+        margin-top: 20px;
     }
     .div2{
-        width: 60%;
-        float: left;
-        padding-top: 15px;
+        width: 100%;
+        float: none;
+        padding: 35px 0px;
+        background-color: rgb(53, 46, 46);
     }
-    .home{
-        text-decoration: none;
-        color: white;
-        font-size: 17px;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    .sec-ul li{
-        display: inline-block;
-        margin-left: 40px;
-    } 
-    .div1{
-        width: 40%;
-        float: left;
-        text-align: center;
-    }
-    .img1{
-        width: 140;
-        height: 80px;
-    }
-    .div2{
-        width: 60%;
-        float: left;
-        padding-top: 15px;
-    }
-    .home{
-        text-decoration: none;
-        color: white;
-        font-size: 17px;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    .sec-ul li{
-        display: inline-block;
-        margin-left: 40px;
+    
+.home{
+    font-size: 37px;
     }
     .ab-sec1-div1{
         padding: 150px 0px;
     }
     .ab-sec1-a{
-        font-size: 30px;
+        font-size: 40px;
     }
     .ab-sec1-p1{
         font-size: 50px;
     }
     .ab-sec1-li2{
-        font-size: 30px;
+        font-size: 31px;
     }
     .ab-sec2{
         margin-bottom: 80px;

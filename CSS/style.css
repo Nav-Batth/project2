@@ -1,12 +1,14 @@
 body{
     margin: 0;
 }
-nav{
+.nav1{
     width: 100%;
     height: 100px;
     background-color: rgb(58, 57, 57);
     margin: auto;
-    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    z-index: 1000;
 }
 .div1{
     width: 40%;
@@ -26,26 +28,24 @@ nav{
     text-decoration: none;
     color: white;
     font-size: 17px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.sec-ul li{
+    }
+ul li{
     display: inline-block;
     margin-left: 40px;
 }
-.home:hover{
+a:hover{
     color: #9f6b5a;
 }
 .clear{
     clear: both;
 }
-
 .sec1{
     width: 100%;
-    padding-top: 90px;
+    padding-top: 10px;
     background-color: rgb(42, 40, 40);
 }
 .sec1-div-head{
-    width: 80%;
+    width: 90%;
     margin: auto;
 }
 .sec1-div1{
@@ -92,14 +92,38 @@ nav{
 .sec1-div2{
     width: 50%;
     float: left;
-    padding-top: 80px;
+    padding-top: 130px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     line-height: 50px;
 }
+.social-icon svg {
+    width: 30px;
+    height: 30px;
+    fill: #6c757d;
+    margin-right: 50px;
+}
+.twitter-icon {
+    width: 35px;
+    height: 35px;
+    fill: #6c757d; /* Twitter blue */
+}
+.instagram-icon {
+    width: 30px; /* Adjust the size as needed */
+    height: 30px;
+    fill: hsl(210, 4%, 40%); /* White color */
+    margin-left: 50px;
+}
+
+.sec1-div3{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
 .sec1-h1{
-    font-size: 50px;
+    font-size: 60px;
     color: white;
+    padding-top: 20px;
 }
 .sec1-p{
     color: #9f6b5a;
@@ -109,12 +133,12 @@ nav{
     clear: both;
 }
 .sec2{
-    width: 100%;
+    width: 99%;
     padding-top: 10%;
     padding-bottom: 10%; 
     border: 2px solid black;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 130%;
+    font-size: 20px;
     background-color: black;
 
 }
@@ -131,9 +155,8 @@ nav{
 }
 .sec2-div01{
     width: 80%;
-    height: 220px;
     color: white;
-    margin-left: 5%;
+    margin-left: 5%; 
     padding: 55px 15px;
     border: 3px solid rgb(195, 175, 175);
 }
@@ -259,7 +282,7 @@ nav{
     float: left;
 }
 .sec4-div01{    
-    width: 400px;
+    /* width: 400px; */
     background-color: #9f6b5a;
     padding: 50px 80px 40px;
     margin-left: 40px;
@@ -302,7 +325,7 @@ nav{
     float: left;
 }
 .sec4-div02{
-    width: 400px;
+    /* width: 400px; */
     background-color: black;
     padding: 60px 80px;
     margin-left: 20px;
@@ -456,6 +479,22 @@ nav{
     width: 33.3%;
     float: left;
 }
+.location-icon {
+    width: 30px;
+    height: 30px;
+    fill:#9f6b5a; /* Color of the icon */
+}
+.bi.bi-telephone {
+    color:#9f6b5a;
+    width: 30px;
+    height: 30px;
+}
+.email-icon {
+    width: 30px;
+    height: 30px;
+    fill:#9f6b5a;
+    transition: fill 0.3s;
+}
 .sec6-h2{
     color: white;
     font-size: 30px;
@@ -492,8 +531,30 @@ nav{
     line-height: 50px;
     text-decoration: none;
 }
-.clear6{
-    clear: both;
+.sec6-social-icon svg {
+    width: 30px;
+    height: 30px;
+    fill: #6c757d;
+    margin-right: 90px;
+}
+.sec6-twitter-icon {
+    width: 35px;
+    height: 35px;
+    fill: #6c757d; /* Twitter blue */
+    margin-right: 50px;
+}
+.sec6-instagram-icon {
+    width: 30px; /* Adjust the size as needed */
+    height: 30px;
+    fill:#6c757d; /* White color */
+    margin-left: 90px;
+}
+.sec6-linkedin-icon svg {
+    fill:#6c757d; /* LinkedIn blue color */
+    width: 30px; /* Adjust size as needed */
+    height: 30px; /* Adjust size as needed */
+    transition: fill 0.3s ease; /* Smooth transition */
+    margin-left: 30px;
 }
 .sec6-d4{
     color: #6c757d;
@@ -502,45 +563,42 @@ nav{
 .clear6{
     clear: both;
 }    
-     
-
 @media screen and (min-width:0px) and (max-width:576px) {
-
 
     body{
         margin: 0;
         width: 1170px;
     }
-    nav{
+    .nav1{
         width: 100%;
-        height: 100px;
+        height: 400px;
         background-color: rgb(58, 57, 57);
-        
+        margin: auto;
+        z-index: 1000;
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
     }
     .div1{
-        width: 40%;
-        float: left;
+        width: 100%;
+        float: none;
         text-align: center;
     }
     .img1{
-        width: 140;
-        height: 80px;
+        width: 70%;
+        height: 250px;
+        margin-top: 20px;
     }
     .div2{
-        width: 60%;
-        float: left;
-        padding-top: 15px;
+        width: 100%;
+        float: none;
+        padding: 40px 0px;
+        background-color: rgb(53, 46, 46);
     }
-    .home{
-        text-decoration: none;
-        color: white;
-        font-size: 17px;
-        font-family: Arial, Helvetica, sans-serif;
+    
+.home{
+    font-size: 37px;
     }
-    .sec-ul li{
-        display: inline-block;
-        margin-left: 40px;
-    }
+
     .sec1{
         width: 100%;
     }
@@ -554,6 +612,7 @@ nav{
     }
     .sec1-img1{
         width: 100%;
+        padding-top: 5%;
     }
     .sec1-div2{
         width: 100%;
